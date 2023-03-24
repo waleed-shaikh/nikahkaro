@@ -1,0 +1,45 @@
+:root {
+  --primary: #75e2e9;
+  --secondary: #3786bd;
+  --title: #beb8c3;
+  --success: #6fbf71;
+  --info: #00bcd4;
+  --warning: #e47943;
+  --danger: #f44336;
+  --light: #f1f1f1;
+  --dark: #212121;
+}
+
+.bg-white{
+    background-color: white !important;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+.bg-title{
+    background-color: var(--title) !important;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.text-white{
+    color: white !important;
+}
+
+.bg-success{
+    background-color: var(--success);
+}
+
+.bg-error{
+    background-color: var(--warning);
+}
+.border-white{
+    border: 1px solid white;
+}
+.border-black{
+    border: 1px solid black;
+}
